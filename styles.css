@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0px 20px 0px 20px;
+    position: relative;
+}
+body {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    padding: 0px 50px 0px 50px; /* Add this line to set the padding */
+}
+h1 {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px; /* Add this line to set the bottom margin */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px; /* Add this line to set the font size */
+}
+
+h1 a {
+    color: inherit;
+    text-decoration: underline dotted;
+}
+h2 {
+    font-weight: 500;
+    font-size: 15px;
+    color: #332d2d;
+    text-align: center;
+    margin-bottom: 30px; /* Add this line to set the top margin */
+    position: relative;
+}
+p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #837575;
+    text-align: center;
+    position: relative;
+    font-size: 13px; /* Add this line to set the font size */
+}
+P a {
+    color: inherit;
+    text-decoration: underline dotted;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+}
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu li {
+    list-style: none;
+    margin: 0px 5px 0px 5px;
+    
+}
+.menu a {
+    text-decoration: none;
+    color: #837575;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px; /* Add this line to set the font size */
+}
+.menu a:hover {
+    text-decoration: underline;
+
+}
