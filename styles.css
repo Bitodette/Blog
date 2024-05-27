@@ -8,16 +8,16 @@ body {
     padding: 0 20px;
     place-items: center;
     position: relative;
-    background-color: #F4F4F5; /* Light mode background color */
+    background-color: #F4F4F5;
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 .dark-mode {
-    background-color: #1F1F1F; /* Dark mode background color */
-    color: #F4F4F5; /* Dark mode text color */
+    background-color: #1F1F1F;
+    color: #F4F4F5;
 }
 .navbar {
-    position: absolute; /* Mengatur navbar relatif terhadap body */
-    right: 20px; /* Posisikan navbar 20px dari tepi kanan */
+    position: absolute;
+    right: 20px;
     text-align: right;
     transform: translateY(-100%);
 }
