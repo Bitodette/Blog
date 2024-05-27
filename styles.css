@@ -8,8 +8,13 @@ body {
     padding: 0 20px;
     place-items: center;
     position: relative;
+    background-color: #F4F4F5; /* Light mode background color */
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
-
+.dark-mode {
+    background-color: #1F1F1F; /* Dark mode background color */
+    color: #F4F4F5; /* Dark mode text color */
+}
 .navbar {
     position: absolute; /* Mengatur navbar relatif terhadap body */
     right: 20px; /* Posisikan navbar 20px dari tepi kanan */
