@@ -5,34 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&family=Source+Code+Pro:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
-        <div>
-            <main>
-                <nav class="navbar">
-                    <ul class="menu">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#" onclick="toggleDarkMode()">Theme</a></li>
-                    </ul>
-                </nav>
-                <h1>
-                    Hi! I'm <a href="https://github.com/hxrvza">@hxrvza</a>
-                </h1>
-                <h2>
-                    A
-                    <span title="I hate it">JavaScript-based</span> 
-                    <wbr>
-                    Front-End Developer
-                </h2>
-                <p>
-                    I love Web Development! I enjoy exploring the various things I can do within a website. For more information, check
-                    <a href="#">About!</a>
-                </p>
-            </main>
+    <header>
+        <nav class="navbar">
+            <div class="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#dark-mode" class="nav_link" id="theme" onclick="toggleDarkMode()">Theme</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--===== HOME =====-->
+        <div >
+            <img class="foto" src="img.png" alt="">
         </div>
+        <div>
+            <h1 class="perkenalan">
+                Hi! I'm <a href="https://github.com/hxrvza" class="gh">@hxrvza</a>
+            </h1>
+            <h2 class="add">
+                A
+                <span title="I hate it">JavaScript-based</span> 
+                <wbr>
+                Front-End Developer
+            </h2>
+            <p class="desc">
+                I'm an undergraduate who loves Web Development! I like to explore various things that I can do within a website. For more information, check 
+                <a href="#about!" class="about">About!</a>
+            </p>
+        </div>
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closeBtn">&times;</span>
+                <p id="popupContent">This is your pop-up content!</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
