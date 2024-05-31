@@ -80,7 +80,6 @@ function applyAutomaticTheme() {
 applyAutomaticTheme();
 
 const projectsLink = document.querySelector('.nav_link[href="#projects"]');
-const aboutLink = document.querySelector('.nav_link[href="#about"]');
 
 const popup = document.getElementById('popup');
 const popupContent = document.getElementById('popupContent');
@@ -95,10 +94,6 @@ projectsLink.addEventListener('click', (event) => {
     openPopup("SOON!");
 });
 
-aboutLink.addEventListener('click', (event) => {
-    event.preventDefault();
-    openPopup("SOON!");
-});
 
 document.getElementById('closeBtn').addEventListener('click', () => {
     popup.style.display = 'none';
