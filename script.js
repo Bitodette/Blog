@@ -1,19 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Disable transition during initial load
     const body = document.querySelector('body');
     body.classList.add('no-transition');
 
-    // Check saved theme from localStorage
     const savedTheme = localStorage.getItem('darkMode');
 
-    // Apply theme without transition
     if (savedTheme === 'true') {
         applyDarkMode(false);
     } else {
         applyLightMode(false);
     }
 
-    // Re-enable transition after applying the theme
     setTimeout(() => {
         body.classList.remove('no-transition');
     }, 0);
