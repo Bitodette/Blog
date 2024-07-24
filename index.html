@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="\Blog\styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&family=Source+Code+Pro:ital@0;1&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="\Projects\index.html" class="nav_link">Projects</a></li>
+                    <li class="nav_item"><a href="https://thedevn00b.github.io/Portfolio/" class="nav_link">About</a>
+                    </li>
+                    <li class="nav_item"><a href="#dark-mode" class="nav_link" id="theme"
+                            onclick="toggleDarkMode()">Theme</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div>
+            <img class="foto" src="\image\img.png" alt="">
+        </div>
+        <div>
+            <h1 class="perkenalan">
+                Hi! I'm <a href="https://github.com/thedevn00b" class="gh">@TheDevN00b</a>
+            </h1>
+            <h2 class="add">
+                A
+                <span title="I hate it">JavaScript-based</span>
+                <wbr>
+                Front-End Developer
+            </h2>
+                <p class="desc">
+                    I'm an undergraduate who loves Web Development! I like to explore various things that I can do
+                    within a website. For more information, check
+                    <a href="https://thedevn00b.github.io/Portfolio/" class="about">About!</a>
+                </p>
+        </div>
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closeBtn">&times;</span>
+                <p id="popupContent">This is your pop-up content!</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
