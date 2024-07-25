@@ -75,22 +75,3 @@ function applyLightMode(withTransition) {
 
     if (!withTransition) setTimeout(() => body.classList.remove('no-transition'), 0);
 }
-
-const projectsLink = document.querySelector('.nav_link[href="#projects"]');
-
-const popup = document.getElementById('popup');
-const popupContent = document.getElementById('popupContent');
-
-function openPopup(content) {
-    popupContent.textContent = content;
-    popup.style.display = 'block';
-}
-
-projectsLink.addEventListener('click', (event) => {
-    event.preventDefault();
-    openPopup("SOON!");
-});
-
-document.getElementById('closeBtn').addEventListener('click', () => {
-    popup.style.display = 'none';
-});
